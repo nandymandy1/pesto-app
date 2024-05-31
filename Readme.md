@@ -8,11 +8,13 @@
 
 Create a `.env` file in the `pesto-server/` directory of your project and add the following configurations:
 
-`PORT=<specify the port>`
-`DB=<your mongodb connection string>`
-`BASE_URL=http://localhost:<specified port>`
-`APP_SECRET=<some random secret string for app secret>`
-`R_APP_SECRET=<some random secret string for re-fresh token>`
+```sh
+PORT=<specify the port>
+DB=<your mongodb connection string>
+BASE_URL=http://localhost:<specified port>
+APP_SECRET=<some random secret string for app secret>
+R_APP_SECRET=<some random secret string for re-fresh token>
+```
 
 - To Generate the random secret key you can run `window.crypto.randomUUID();` in the browser console which will generate random key `string`
 
@@ -34,11 +36,13 @@ Run the following command to build the project for production
 
 Create a `.env` file in the `pesto-server/` directory of your project and add the following configurations depenging on your production env:
 
-`PORT=<specify the port>`
-`DB=<your mongodb connection string>`
-`BASE_URL=http://<server-ip>:<specified port>`
-`APP_SECRET=<some random secret string for app secret>`
-`R_APP_SECRET=<some random secret string for re-fresh token>`
+```sh
+PORT=<specify the port>
+DB=<your mongodb connection string>
+BASE_URL=http://localhost:<specified port>
+APP_SECRET=<some random secret string for app secret>
+R_APP_SECRET=<some random secret string for re-fresh token>
+```
 
 - To Generate the random secret key you can run `window.crypto.randomUUID();` in the browser console which will generate random key `string`
 
@@ -71,7 +75,9 @@ $ npm run dev
 
 Create a `.env` file in the `pesto-rc/` directory of your project and add the following configurations:
 
-`VITE_BASE_URL=<your server base url>`
+```sh
+VITE_BASE_URL=<your server base url>
+```
 
 to run the react app locally.
 
